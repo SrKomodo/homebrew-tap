@@ -1,9 +1,9 @@
 class ShadowfoxUpdater < Formula
   desc "An automatic updater for ShadowFox"
   homepage "https://github.com/SrKomodo/shadowfox-updater"
-  url "https://github.com/SrKomodo/shadowfox-updater/releases/download/v1.7.16/shadowfox_mac_x64"
-  version "v1.7.16"
-  sha256 "d858522b685628ab80578f786965972adb5e1861adae47d429862c43496bf4d6"
+  url "https://github.com/SrKomodo/shadowfox-updater/releases/download/v1.7.17/shadowfox_mac_x64"
+  version "v1.7.17"
+  sha256 "12eda523598c7af382792c549545233d82bfafac187162ff5309c567b8f42596"
 
   def install
     File.rename("shadowfox_mac_x64", "shadowfox")
